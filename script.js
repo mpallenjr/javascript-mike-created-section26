@@ -304,7 +304,7 @@ console.log(day)
 // designed for 'equality' more than a comparison tool. 
 
 // if else condition for above
-
+/*
 if (day === 'monday') {
   console.log('Plan course structure');
     console.log('Go to coding meetup');
@@ -315,3 +315,4 @@ if (day === 'monday') {
   console.log('Relax')
 
 }
+*/
