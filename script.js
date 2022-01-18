@@ -280,26 +280,38 @@ if(hasDriversLicense && hasGoodVision && !isTired) {
 }
 */
 
-const day = 'friday';
-
-switch(day) {
-  case 'monday':
-    console.log('Plan course structure');
-    console.log('Go to coding meetup');
-    break;
-   case 'tuesday':
-   case 'wednesday':
-     console.log('Wtrite some examples')
-     break;
-   case 'thursday':
-   case 'friday':
-   case 'saturday':
-   case 'sunday':
-     console.log('Relax')
-     break;
-     default:
-       console.log('Not a valid day!)')
+const day = 'monday';
+console.log(day)
+// switch(day) {
+//   case 'monday':
+//     console.log('Plan course structure');
+//     console.log('Go to coding meetup');
+//     break;
+//    case 'tuesday':
+//    case 'wednesday':
+//      console.log('Wtrite some examples')
+//      break;
+//    case 'thursday':
+//    case 'friday':
+//    case 'saturday':
+//    case 'sunday':
+//      console.log('Relax')
+//      break;
+//      default:
+//        console.log('Not a valid day!)')
     
-}
+// }
 // designed for 'equality' more than a comparison tool. 
 
+// if else condition for above
+
+if (day === 'monday') {
+  console.log('Plan course structure');
+    console.log('Go to coding meetup');
+} else if (day === 'wednesday') {
+  console.log('Wtrite some examples')
+
+}else {
+  console.log('Relax')
+
+}
